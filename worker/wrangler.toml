@@ -6,7 +6,7 @@ workers_dev = true
 [vars]
 # Только origin, без /имя-репозитория и без завершающего слеша.
 # Для локальной разработки временно добавь ,http://localhost:8080
-ALLOWED_ORIGIN = "https://irina0099.github.io", "http://localhost:8080"
+ALLOWED_ORIGIN = "https://irina0099.github.io","http://localhost:8080"
 TRANSCRIBE_MODEL = "gpt-4o-mini-transcribe"
 ANALYSIS_MODEL = "gpt-6-luna"
 
